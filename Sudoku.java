@@ -12,7 +12,7 @@ public class Sudoku {
 
 	public static void main(String[] args) {
 		try {
-			Sudoku sudoku = new Sudoku("Sudoku001.svg");
+			Sudoku sudoku = new Sudoku("Sudoku001.sdk");
 		} catch (FileNotFoundException e) {
 			System.out.print("File not found");
 		}
